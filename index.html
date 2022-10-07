@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.min.css">
+  <title>Calculadora IMC</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="calcBody" class="calcBody">
+      <div class="header">
+        <h1>Calcule seu IMC</h1>
+      </div>
+
+      <div class="innerBody">
+        <div class="inputs">
+          <div class="altura">
+            <input id="InputAltura" type="number" min="50" max="300" placeholder="Altura (cm)">
+          </div>
+
+          <div class="peso">
+            <input id="InputPeso" type="number" min="0" placeholder="Peso (kg)">
+          </div>
+        </div>
+
+        <div class="buttons">
+          <i id="btnLimpar" class="fa-solid fa-rotate-right fa-3x"></i>
+          <i id="btnResult" class="fa-solid fa-calculator fa-3x"></i>
+        </div>
+      </div>
+
+      <div id="resultado">
+        <div id="divRes"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/e13a6fd97d.js" crossorigin="anonymous"></script>
+  <script src="./script.min.js"></script>
+</body>
+
+</html>
